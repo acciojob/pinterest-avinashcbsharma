@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+.hero{
+            display: flex;
+            justify-content:flex-start;            
+            align-items: center;
+            height: 100vh;
+            /* border: 2px solid rebeccapurple; */
+        }
+        img{
+            margin-right:50px;
+            width:900px;
+            height: 400px;
+            object-fit: cover;
+            /* border: 2px solid orange; */
+        }
+        .btn{
+            display: flex;
+            line-height: 2em;
+            justify-content: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size:11px;
+            color: white;
+            border-radius: 3px;
+            font-weight: 600;
+            border: none;
+            padding: 5px 0px 3px 0px;
+            width: 9em;
+            background-color: rgb(200, 118, 36);
+        }
+        .txt{
+            display: flex;
+            flex-direction: column;
+            width: 20vw;
+            align-items: center;
+            text-align: center;
+            /* border: 2px solid blue; */
+        }
